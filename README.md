@@ -6,3 +6,43 @@
 
 2강. 웹 프레임워크 Django(python) 실습
 
+1. 프로젝트 & app 생성
+
+   ```bash
+    1  pip install django
+    2  django-admin startproject tutorial
+    3  cd tutorial
+    4  python3 manage.py startapp community
+   ```
+
+2. 디렉토리 구조 확인
+
+3. 관리자 페이지 확인
+
+   ```bash
+    7  python3 manage.py createsuperuser
+   ```
+
+   `url/admin` 을 통해 관리자 페이지 접근 가능 (http://127.0.0.1:8000/admin/)
+
+4. 글쓰기
+
+5. 리스트
+
+6. 글 보기
+
+---
+
+> 전체 terminal history
+
+```bash
+ 1  pip install django
+ 2  django-admin startproject tutorial
+ 3  cd tutorial
+ 4  python3 manage.py startapp community
+ 5  python3 manage.py migrate
+ 6  python3 manage.py createsuperuser
+ 7  python3 manage.py runserver
+ 
+```
+
