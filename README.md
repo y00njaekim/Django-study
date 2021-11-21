@@ -10,9 +10,11 @@
 
 ## Branch Description
 
+#### 🌲 inflearn/Django-beginner-guide
 
+인프런 강의 **Django 초보 가이드 - 실습을 통해 알아보는 장고 입문** 정리
 
+#### 🌲 inflearn/Django-Pinterest
 
-
-
+인프런 강의 **작정하고 장고! Django로 Pinterest 따라만들기 : 바닥부터 배포까지** 정리
 
