@@ -6,30 +6,42 @@
 
 2강. 웹 프레임워크 Django(python) 실습
 
-1. 프로젝트 & app 생성
+🎯 1 . 프로젝트 & app 생성
 
-   ```bash
-    1  pip install django
-    2  django-admin startproject tutorial
-    3  cd tutorial
-    4  python3 manage.py startapp community
-   ```
+```bash
+ 1  pip install django
+ 2  django-admin startproject tutorial
+ 3  cd tutorial
+ 4  python3 manage.py startapp community
+```
 
-2. 디렉토리 구조 확인
+🎯 2 . 디렉토리 구조 확인
 
-3. 관리자 페이지 확인
+🎯 3 . 관리자 페이지 확인
 
-   ```bash
-    7  python3 manage.py createsuperuser
-   ```
+```bash
+ 7  python3 manage.py createsuperuser
+```
 
-   `url/admin` 을 통해 관리자 페이지 접근 가능 (http://127.0.0.1:8000/admin/)
+`url/admin` 을 통해 관리자 페이지 접근 가능 (http://127.0.0.1:8000/admin/)
 
-4. 글쓰기
+🎯 4 . 글쓰기
 
-5. 리스트
+```bash
+# Model 만들기
 
-6. 글 보기
+ 1  python3 manage.py makemigrations # Models.py 의 변동사항을 알려줌
+ 2  python3 manage.py migrate # Models.py 의 변동사항을 db에 반영해줌
+
+```
+
+❓ 정규표현식이란
+
+[[관련 블로그 1]](https://hamait.tistory.com/342) [[관련 텍스트_딥러닝을 이용한 자연어 처리]](https://wikidocs.net/21703) [[Django url 정규표현식]](https://wayhome25.github.io/django/2017/03/18/django-ep2-regx/)
+
+🎯 5 . 리스트
+
+🎯 6.  글 보기
 
 ---
 
